@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Paperbird - Cool Canvas Paintings</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Molengo" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/087e9366d4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" charset="utf-8"></script>
+    <main class="main-container">
+        <div class="wrapper">
+            <header id="header">
+                <img id="header-img" class="logo-img" src="images/landing_logo-min.jpg" alt="">
+                <div class="menu">
+                    <nav id="nav-bar">
+                        <ul class="nav-menu">
+                            <li><a class="nav-link" href="#features">Features</a></li>
+                            <li><a class="nav-link" href="#production">How it's created</a></li>
+                            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                            <li><a class="nav-link" href="#contacts">Contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </div>
+
+        <div class="sign-up">
+            <form id="form" class="sign-up-form" action="https://www.freecodecamp.com/email-submit" method="post">
+                <h1>Paperbird - online auction platform</h1>
+                <label for="email">Get our catalog: </label>
+                <input id="email" type="email" name="email" value="" placeholder="example@mail.com" required>
+                <input id="submit" type="submit" name="button" value="Submit">
+            </form>
+        </div>
+
+        <section class="features" id="features">
+            <div class="grid">
+                <div class="icon"><i class="far fa-images"></i></div>
+                <div class="desc">
+                    <h2>What is Paperbird?</h2>
+                    <p>
+                        Founded in 2010, Paperbird is an online auction platform where art collectors can interact - sell, buy, or exchange special and hard-to-find objects.
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon"><i class="fas fa-hands-helping"></i></div>
+                <div class="desc">
+                    <h2>Why work with us?</h2>
+                    <p>
+                        Today our platform hosting auctions featuring 30,000 objects in more than 50 categories every month. Paperbird serves customers from all over the world and is available in 12 languages.
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon"><i class="fas fa-user-friends"></i></div>
+                <div class="desc">
+                    <h2>Our company</h2>
+                    <p>
+                        Headquartered in London, UK, Paperbird has 200 passionate employees - real art experts with decades of experience and knowledge - working across our European offices, serving customers around the world.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="production">
+            <container id="vid-container">
+                <div class="video">
+                    <div id="vid">
+                        <iframe id="video" width="720" height="360" src="https://www.youtube.com/embed/XFilwKLZHkk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                </div>
+            </container>
+        </section>
+
+        <section id="pricing">
+            <h2 id="plans-title">Our plans</h2>
+            <div class="plans">
+                <div class="product" id="essentials">
+                    <div class="level">Essentials</div>
+                    <h2>$60</h2>
+                    <p class="plan-text">
+                        Access the Price Database for lots sold one year ago to date, plus Art Market Alerts and sale estimates.
+                    </p>
+                    <button class="btn">Get started</button>
+                </div>
+                <div class="product" id="premium">
+                    <div class="level">Premium</div>
+                    <h2>$90</h2>
+                    <p class="plan-text">
+                        Unlimited access to the Price Database. View estimates and realized prices, and receive Art Market Alerts for sellers activity.
+                    </p>
+                    <button class="btn">Get started</button>
+                </div>
+                <div class="product" id="vip">
+                    <div class="level">VIP</div>
+                    <h2>$120</h2>
+                    <p class="plan-text">
+                        All of the benefits of Premium, plus 25 appraisal credits and unlimited access to the Intelligence hub.
+                    </p>
+                    <button class="btn">Get started</button>
+                </div>
+            </div>
+        </section>
+        <footer id="contacts">
+            <ul class="ul-footer">
+                <li class="li-footer"><a href="#">Terms</a></li>
+                <li class="li-footer"><a href="#">Privacy</a></li>
+                <li class="li-footer"><a href="#">Cookies</a></li>
+            </ul>
+            <span>Copyright 2021, Paperbird</span>
+        </footer>
+    </main>
+
+</body>
+
+</html>
